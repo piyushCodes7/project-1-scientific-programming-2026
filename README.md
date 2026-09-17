@@ -1,4 +1,4 @@
-# Project1.jl
+# Airbnb Pricing Estimator (Project1.jl)
 
 <!-- DO NOT EDIT BELOW -->
 [![Tests](../../actions/workflows/tests.yml/badge.svg)](../../actions/workflows/tests.yml)
@@ -9,9 +9,7 @@
 ## Overview
 
 <!-- DESCRIBE PROJECT PURPOSE BELOW -->
-Our first idea is to use a regression model on a data set to create a model projecting demand and pricing. We considered the possibility of using a data set on hotel bookings and use factors including number of rooms booked on each day, room prices, and customer reviews as the input for a regression model and provide pricing recommendations and give the main reasons that influence the room price including the location, cleanliness of the room, amenities, etc for a certain hotel to give an insight into possible improvements a hotel owner could make to increase the profit per room. 
-
-We have expanded on this idea by focusing in on AirBNB's within a specific city and using the data to provide a regression estimate for appropriate prices within a region
+This project aims to build a robust regression model to estimate appropriate pricing for Airbnb listings within specific regions or cities. By analyzing factors such as location, room type, amenities, customer reviews, and other relevant features, this model provides data-driven pricing recommendations. These insights can help property owners optimize their listing prices for maximum profit while remaining competitive.
 <!-- DESCRIBE PROJECT PURPOSE ABOVE  -->
 
 ## Getting started
@@ -28,13 +26,15 @@ julia --project=.
 
 
 <!-- DESCRIBE THE ESSENTIAL USAGE BELOW -->
-Once the package is cloned you can run:
+Once the package is cloned, you can run:
 
 ```julia
 using Project1
+
+# Example placeholder for future model usage
 hello()
 ```
-to print "Hello World" to standard output.
+*Note: The primary modeling functions are actively being developed.*
 <!-- DESCRIBE THE ESSENTIAL USAGE ABOVE -->
 
 ## Tests
